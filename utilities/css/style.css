@@ -1,0 +1,114 @@
+body {
+    background-color:rgb(87, 87, 87);
+    color:white;
+}
+
+#voiture {
+    margin-top:-17px;
+    width: 100%;
+    height: auto;
+    position:absolute;
+    z-index:-1;
+    }
+#accueil {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 15%;
+    font-size: 1vw;
+}
+
+#accueil button {
+border-radius: 5px;
+width: 10vw;
+height: 3vw;
+color:white;
+background-color:green;
+border-style:none;
+font-size: 1.5vw;
+}
+
+#accueil button:hover {
+    background-color:rgb(30, 180, 30);
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.form-signin {
+position:relative;
+    width: 300px;
+    margin: auto ;
+    margin-top:9vw;
+    text-align:center;
+}
+
+.troll {
+    margin-bottom:10px;
+}
+
+.gras {
+    font-weight:bold;
+}
+
+#avatar {
+    border-style:none;
+}
+
+#titre1 {
+    color:white;
+    font-size:3vw;
+    text-align:center;
+}
+
+.navbar {
+    background-color:rgba(141, 141, 141, 0.6);
+    border-radius:5px;
+    height: 60px;
+    margin-top: -6%;
+}
+
+#table1 {
+    margin: 250px auto -75px;
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+}
+
+   td, th{ 
+    border-width:2px;
+    border-style:solid; 
+    border-color:black;
+    }
+
+    #photoAgences {
+        width: 80px;
+    }
+
+    #table2 {
+margin-top: 10vw;
+background-color:rgb(110, 180, 212);
+    }
+
+    #suppr2{
+        text-decoration:none;
+        color:black;
+        text-align:center;
+padding:5px; 
+width:50px;
+    }
+
+    #suppr1{
+        text-decoration:none;
+        color:black;
+        text-align:center;
+padding:3px; 
+width:50px;
+    }
+
+.card {
+    display:flex;
+    flex-wrap: wrap;
+}
